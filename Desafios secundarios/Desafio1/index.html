@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Simples</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <h1 id="h1">Cadastro</h1>
+
+    <form id="formulario">
+        <label>
+            Nome:
+            <input type="text" id="nome">
+        </label>
+
+        <br><br>
+
+        <label>
+            Email:
+            <input type="email" id="email">
+        </label>
+
+        <br><br>
+
+        <label>
+            Idade:
+            <input type="number" id="idade">
+        </label>
+
+        <br><br>
+
+        <button type="button" id="btnEnviar" >
+            Enviar
+        </button>
+    </form>
+
+    <hr>
+
+    <h2>Dados digitados:</h2>
+    <div class="resultado">
+        <p><strong>Nome:</strong> <span id="nomeR"></span></p>
+        <p><strong>Email:</strong> <span id="emailR"></span></p>
+        <p><strong>Idade:</strong> <span id="idadeR"></span></p>
+    </div>
+</body>
+</html>

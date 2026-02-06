@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Carrinho de <span>compras</span></h1>
+</header>
+
+<main>
+  <div class="formulario">
+    <label>Produto</label>
+    <select id="produto">
+      <option value="5000">Oculus VR - R$5000</option>
+      <option value="3500">Console - R$3500</option>
+      <option value="200">Controle - R$200</option>
+    </select>
+
+    <label>Qtde.</label>
+    <input type="number" id="quantidade" value="1" min="1" />
+
+    <div class="botoes">
+      <button class="adicionar" onclick="adicionar()">Adicionar</button>
+      <button class="limpar" onclick="limpar()">Limpar</button>
+    </div>
+  </div>
+
+  <div class="resumo">
+    <h2>🛒 Produtos no carrinho</h2>
+    <div class="itens" id="itens"></div>
+    <div class="total">Total: R$ <span id="total">0</span></div>
+    <div class="itenstt">Quantidade de itens:<span id="itenstt">0</span></div>
+  </div>
+</main>
+
+</body>
+</html>

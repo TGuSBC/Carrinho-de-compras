@@ -1,0 +1,71 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { margin: 0; background: #f4f6f8; }
+
+    header {
+      background: #1e90ff;
+      padding: 20px;
+      color: #fff;
+    }
+
+    main {
+      display: flex;
+      gap: 40px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+    }
+
+    h1 span { color: #1e90ff; }
+
+    .formulario, .resumo {
+      flex: 1;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    select, input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .botoes {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .adicionar { background: #1e90ff; color: #fff; }
+    .limpar { background: #000; color: #fff; }
+
+    .resumo h2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .itens {
+      margin-top: 20px;
+      min-height: 100px;
+    }
+
+    .total {
+      margin-top: 30px;
+      font-size: 22px;
+      font-weight: bold;
+    }
