@@ -16,8 +16,7 @@
       background: #fff;
     }
 
-    h1 span { color: #1e90ff; }
-
+    h1 span { color: #ffffff; }
     .formulario, .resumo {
       flex: 1;
     }
