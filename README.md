@@ -4,7 +4,7 @@ Projeto de sistema de carrinho de compras que permite adicionar, remover e geren
 
 📸 Preview
 
-![preview do projeto]<img width="1914" height="937" alt="image" src="https://github.com/user-attachments/assets/a1353c89-dd03-482d-89c5-d4ebc52fc364" />
+<img width="1914" height="937" alt="image" src="https://github.com/user-attachments/assets/a1353c89-dd03-482d-89c5-d4ebc52fc364" />
 
 
 🔗 Demo online
